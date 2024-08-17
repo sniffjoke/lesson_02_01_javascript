@@ -50,4 +50,27 @@
 //
 // const stopEngine = () => {}
 
+// -------------------------------------------------- //
 
+// globalLE {} --> null
+
+// const counterCreator = () => {
+//     // counterCreatorLE {} --> globalLE
+//     let count = 0
+//
+//     return () => {
+//         // counterLE {} --> counterCreatorLE
+//         console.log(++count)
+//     }
+// }
+//
+// const couter1 = counterCreator() // globalLE {counter: func} --> null
+// const couter2 = counterCreator() // globalLE {counter: func} --> null
+//
+// couter1()
+// couter1()
+// couter1()
+
+couter2()
+couter2()
+couter2()
